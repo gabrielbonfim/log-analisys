@@ -17,8 +17,8 @@ Reports:
 - Install [Vagrant](https://www.vagrantup.com/downloads.html). Vagrant is the program that will download a Linux operating system and run it inside the virtual machine.
 - Fork the [VM configuration](https://github.com/udacity/fullstack-nanodegree-vm). `cd` into the "vagrant" directory and execute `vagrant up`. This will copy (in the first run) and start the virtual machine. Once started access the virtual machine via SSH with `vagrant ssh` (password is vagrant). 
 - Download (wget) [Database data](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip). Extract with `unzip newsdata.zip`. Import the sql file to the database with `psql -d news -f newsdata.sql`.
-[Python](https://www.python.org/) - Already installed in the virtual machine
-[PostgreSQL](https://www.postgresql.org/) - Already installed in the virtual machine
+- [Python](https://www.python.org/) - Already installed in the virtual machine
+- [PostgreSQL](https://www.postgresql.org/) - Already installed in the virtual machine
 
 ** Important - View creation **
 
