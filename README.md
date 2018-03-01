@@ -1,5 +1,6 @@
 # Logs Analysis
 Reporting tool that prints out reports in plain text based on the data in the database "news"
+
 Reports:
 1) The most popular three articles of all time
 2) The most popular article authors of all time
@@ -17,6 +18,7 @@ Reports:
 (Both are installed in the Udacity virtual machine for this course)
 
 ** Important - View creation **
+
 create view articles_top_desc as select path, substr(path,10,length(path)) as slug, count(*) as count from log where path like '%/article/%' and status like '200 OK' group by path order by count desc;
 
 ### Installing
