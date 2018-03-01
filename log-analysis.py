@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 #
 # This program is open source.  For license terms, see the LICENSE file.
 #
