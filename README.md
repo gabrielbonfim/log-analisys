@@ -22,6 +22,8 @@ Reports:
 
 ** Important - View creation **
 
+- Access the database with `psql news`, and execute the following code:
+
 create view articles_top_desc as select path, substr(path,10,length(path)) as slug, count(*) as count from log where path like '%/article/%' and status like '200 OK' group by path order by count desc;
 
 ### Installing
